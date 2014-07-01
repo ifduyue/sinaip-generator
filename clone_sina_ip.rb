@@ -71,7 +71,7 @@ loop do
     body = f.read
     puts body
     js = JSON.parse body
-    i = js.has?('end') ? IPAddr.new(js['end']).to_i + 1 : i + 1
+    i = js.key?('end') ? IPAddr.new(js['end']).to_i + 1 : i + 1
     next
   rescue
     sleep 10
