@@ -1,7 +1,7 @@
 SinaIP Generator
 ===================
 
-This is for generating binary file which can be used by sinaip.xxx (e.g. `sinaip-go <https://github.com/ifduyue/sinaip-go>`_).
+This is for generating binary file which can be used by sinaip-xxx (e.g. `sinaip-go <https://github.com/ifduyue/sinaip-go>`_).
 
 You can do it yourself, or download directly from the `Releases <https://github.com/ifduyue/sinaip-generator/releases>`_ page.
 
